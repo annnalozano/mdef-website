@@ -11,31 +11,32 @@
 
 }
 
-.hide-scroll-bar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-  }
-  .hide-scroll-bar::-webkit-scrollbar {
-    display: none;
-  }
 
-  .md-typeset .md-button--primary {
-    border-width: 1px;
-    border-color: rgb(219, 219, 219);
-    border-radius: 4px;
-  }
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.md-typeset .md-button--primary {
+  border-width: 1px;
+  border-color: rgb(219, 219, 219);
+  border-radius: 4px;
+}
 
 .cardContent {
-  padding: 16px;
-  font-size: 16px;
-  color: rgb(32, 32, 32);
+padding: 16px;
+font-size: 16px;
+color: rgb(32, 32, 32);
 }
 
 .md-typeset h2 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .mdc-typography--body2 {
-    font-weight: 300;
-    font-size: 14px;
+  font-weight: 300;
+  font-size: 14px;
 }
